@@ -1,7 +1,8 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/sam-noumena/iden3-schemas/main/AgeVerifier.jsonld",
+            "jsonSchema": "https://raw.githubusercontent.com/sam-noumena/iden3-schemas/main/AgeVerifier.json"
         },
         "version": "1.0",
         "type": "Age"
