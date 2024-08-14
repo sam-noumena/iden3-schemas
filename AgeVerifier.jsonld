@@ -1,23 +1,23 @@
 {
     "@context": [
-        {
+      {
+        "@protected": true,
+        "@version": 1.1,
+        "id": "@id",
+        "type": "@type",
+        "TestAgeChecker": {
+          "@context": {
+            "@propagate": true,
             "@protected": true,
-            "@version": 1.1,
-            "id": "@id",
-            "type": "@type",
-            "Age": {
-                "@context": {
-                    "@propagate": true,
-                    "@protected": true,
-                    "polygon-vocab": "urn:uuid:bad312aa-006d-4afc-a1eb-a37b78a2eabf#",
-                    "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "age": {
-                        "@id": "polygon-vocab:age",
-                        "@type": "xsd:double"
-                    }
-                },
-                "@id": "urn:uuid:f27d266a-62ed-429e-b313-db7f619d86e8"
+            "polygon-vocab": "urn:uuid:d02ce611-6d48-4497-af45-99850a6957c3#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "age": {
+              "@id": "polygon-vocab:age",
+              "@type": "xsd:integer"
             }
+          },
+          "@id": "urn:uuid:f3c5ebd9-0237-43b1-9a60-2f9dba309104"
         }
+      }
     ]
-}
+  }
